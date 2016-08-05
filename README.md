@@ -24,5 +24,8 @@ contact author for details at sampeppard@gmail.com
 
 This uses HTML5, CSS3 and Bootstrap
 
+## Link to project
+
+https://sampeppard.github.io/portfolio/
 
 Copyright (c) 2016 **_Sam Peppard_**
