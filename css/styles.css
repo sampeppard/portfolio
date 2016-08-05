@@ -66,7 +66,7 @@ Feature Content Styles
   color: #ffffff;
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  border-bottom: solid 5px #FFA457;
+  border-bottom: solid 5px #333333;
 }
 
 .main-content h2 {
@@ -94,6 +94,7 @@ footer {
 }
 
 footer p {
+  padding: 12px 0;
   text-align: center;
 }
 
