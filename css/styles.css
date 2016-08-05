@@ -34,11 +34,15 @@ Header Styles
 /--------------------*/
 
 header {
+  position: fixed;
+  top: 0;
   width: 100%;
   color: #ffffff;
   background-color: #333333;
   font-family: 'Oswald', sans-serif;
-  border-bottom: solid 5px #ffffff;
+  border-bottom: solid 5px #ffa457;
+  font-weight: 100;
+  z-index: 1;
 }
 
 /* Navbar */
@@ -65,13 +69,13 @@ Feature Content Styles
   background-size: cover;
   color: #ffffff;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  border-bottom: solid 5px #333333;
+  font-family: 'Annie Use Your Telescope', cursive;
+  border-bottom: solid 5px #ffa457;
 }
 
 .main-content h2 {
   padding: 5px 0;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 3px 3px 9px #000000;
 }
 
 .logo {
@@ -80,17 +84,51 @@ Feature Content Styles
   padding: 20px 0;
 }
 
+@media screen and (max-width: 767px) {
+  .main-content {
+    margin-top: 100px;
+  }
+
+  .logo {
+    width: 30%;
+    margin: 20px 35%;
+  }
+}
+
+/*--------------------/
+Content Styles
+/--------------------*/
+
+.spacing-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* content section styles */
+
+.content {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  font-weight: 100;
+  color: #333333;
+}
+
+/* about styles */
+
 /*--------------------/
 Footer Styles
 /--------------------*/
 
 footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   height: 50px;
   color: #ffffff;
   background-color: #333333;
   font-family: 'Oswald', sans-serif;
-  border-top: solid 5px #ffffff;
+  border-top: solid 5px #ffa457;
+  font-weight: 100;
 }
 
 footer p {
