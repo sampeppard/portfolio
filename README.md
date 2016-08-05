@@ -24,7 +24,7 @@ contact author for details at sampeppard@gmail.com
 
 This uses HTML5, CSS3 and Bootstrap
 
-## Link to project
+## Link to project on Github Pages
 
 https://sampeppard.github.io/portfolio/
 
