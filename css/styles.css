@@ -21,12 +21,7 @@ body {
 }
 
 a {
-  color: #ffffff;
   text-decoration: none;
-}
-
-a:hover {
-  color: #FFA457;
 }
 
 /*--------------------/
@@ -47,7 +42,16 @@ header {
 
 /* Navbar */
 
-.nav li a:hover {
+.navbar-brand, .nav li a {
+  color: #ffffff;
+}
+
+.navbar-header a:hover, .nav li a:hover {
+  color: #ffa457;
+  background-color: transparent;
+}
+
+.navbar-header a:active, .nav li a:active {
   color: #ffa457;
   background-color: transparent;
 }
@@ -113,7 +117,20 @@ Content Styles
   color: #333333;
 }
 
+.content a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: #ffa457;
+}
+
 /* about styles */
+
+.degree {
+  font-weight: bold;
+}
 
 /*--------------------/
 Footer Styles
