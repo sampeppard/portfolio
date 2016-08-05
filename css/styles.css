@@ -31,6 +31,7 @@ header {
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
   font-family: 'Oswald', sans-serif;
+  border-bottom: solid 5px #ffffff;
 }
 
 .jumbotron {
@@ -40,6 +41,31 @@ header {
 .jumbotron h1 {
   font-size: 4em;
   text-align: center;
+}
+
+/*--------------------/
+Feature Content Styles
+/--------------------*/
+
+.main-content {
+  width: 100%;
+  padding: 25px 0;
+  background: url("../img/philly-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.main-content h2 {
+  padding: 5px 0;
+}
+
+.logo {
+  width: 20%;
+  margin: 20px 40%;
+  padding: 20px 0;
 }
 
 /*--------------------/
