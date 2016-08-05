@@ -138,6 +138,7 @@ Content Styles
 /* about styles */
 
 .about {
+  float: right;
   padding: 20px;
   background-color: #ffa457;
   border-radius: 10px;
