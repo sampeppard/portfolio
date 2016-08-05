@@ -152,6 +152,8 @@ Content Styles
   background-color: #333333;
 }
 
+.height-auto { height: auto; }
+
 .degree {
   font-weight: bold;
 }
