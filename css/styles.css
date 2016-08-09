@@ -83,6 +83,7 @@ Feature Content Styles
 
 .main-content {
   width: 100%;
+  margin-top: 35px;
   padding: 25px 0;
   background: url("../img/philly-bg3.jpg");
   background-repeat: no-repeat;
