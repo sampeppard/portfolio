@@ -10,7 +10,13 @@ This is not only a portfolio of projects showing off web design and development,
 
 ## Setup/Installation Requirements
 
-* _Simply download or clone_
+* _1. Clone this repository or download zip file from GitHub_
+
+* _2. Open index.html file in browser of choice_
+
+* _3. If editing, opening files to be edited or entire project in editor or choice_
+
+* _3. Link to GitHub pages site - https://sampeppard.github.io/portfolio/_
 
 ## Known Bugs
 

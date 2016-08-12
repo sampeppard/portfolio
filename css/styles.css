@@ -70,11 +70,11 @@ header {
 }
 
 .navbar-collapse.collapse {
-display: block !important;
+display: block;
 }
 
-.navbar-nav>li, .navbar-nav {
-float: right !important;
+.navbar-nav > li, .navbar-nav {
+float: right;
 }
 
 /*--------------------/
